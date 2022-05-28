@@ -1,0 +1,25 @@
+/* @LOADING-ACTIONS */
+export const START_LOADING = "START_LOADING";
+export const END_LOADING = "END_LOADING";
+
+/* @AUTH-ACTIONS */
+export const LOGOUT = "LOGOUT";
+export const AUTH_REQUEST = "AUTH_REQUEST";
+export const AUTH_SUCCESS = "AUTH_SUCCESS";
+export const AUTH_FAILURE = "AUTH_FAILURE";
+
+export const SIGNUP_REQUEST = "SIGNUP_REQUEST";
+export const SIGNUP_SUCCESS = "SIGNUP_SUCCESS";
+export const SIGNUP_FAILURE = "SIGNUP_FAILURE";
+
+/* @CLIENT-ACTIONS */
+export const ADMIN = "ADMIN";
+export const ADMIN_REQUEST = "ADMIN_REQUEST";
+export const ADMIN_SUCCESS = "ADMIN_SUCCESS";
+export const ADMIN_FAILURE = "ADMIN_FAILURE";
+export const CLIENT_REQUEST = "CLIENT_REQUEST";
+export const CLIENT_SUCCESS = "CLIENT_SUCCESS";
+export const CLIENT_FAILURE = "CLIENT_FAILURE";
+export const CLEAR_DATA = "CLEAR_DATA";
+export const CLOSE_DIALOG="CLOSE_DIALOG"
+export const FORCE_REFRESH="FORCE_REFRESH"
